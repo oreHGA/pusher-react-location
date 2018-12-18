@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^1.1.1",
     "react": "^16.6.3",
+    "react-bingmaps": "^3.6.1",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
