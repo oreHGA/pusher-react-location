@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "google-map-react": "^1.1.1",
+    "axios": "^0.18.0",
+    "google-map-react": "^1.1.2",
+    "pusher-js": "^4.3.1",
     "react": "^16.6.3",
-    "react-bingmaps": "^3.6.1",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-toastify": "^4.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

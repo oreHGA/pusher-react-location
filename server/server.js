@@ -12,7 +12,7 @@ let pusher = new Pusher({
     key: 'PUSHER_APP_KEY',
     secret: 'PUSHER_APP_SECRET',
     cluster: 'PUSHER_APP_CLUSTER',
-    encrypted: true
+    useTLS: true
 });
 
 app.use(bodyParser.json());
@@ -43,7 +43,7 @@ app.post('/pusher/auth', (req, res) => {
 });
 
 app.post('/update-location', (req, res) => {
-    // trigger a new post event via pusher
+    // trigger a new location update event via pusher
     pusher.trigger('presence-channel', 'location-update', {
         'username': req.body.username,
         'location': req.body.location
