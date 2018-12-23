@@ -2,7 +2,7 @@
 
 ![Application Demo](./demo.gif)
 
-<!-- [Link to Tutorial]() -->
+[Link to Tutorial](https://pusher.com/tutorials/live-map-react)
 
 ## Prerequisite
 - [React](https://reactjs.org) installed on your machine, you can read up on how to do that [here](https://facebook.github.io/create-react-app/docs/getting-started)
