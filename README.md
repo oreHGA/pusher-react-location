@@ -39,7 +39,7 @@ node server.js
 ```
 
 ## Update React Application
-- Enter Backend Server URLs in `src/providers/pusher-service/App.js`
+- Update server Backend Server URLs (if changed) to match your server host in `src/App.js` (line 45 & line 100)
 
 
 ## Start React Application
